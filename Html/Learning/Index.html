@@ -7,6 +7,7 @@
     <style>
         *{
             background-color: aquamarine;
+            margin: 0px;
         }
         table, th, td{
             background-color: white;
@@ -17,6 +18,14 @@
             border: 1px solid rgb(0, 0, 0);
             /* border-collapse: collapse; */
             border-radius: 7px;
+        }
+        li{
+            float: left;
+            list-style-type: none;
+            margin: 4px;
+        }
+        ul{
+            background-color: white;
         }
     </style>
 </head>
@@ -32,7 +41,20 @@
 
 
 
-    ---------------------LISTS--------------------
+    <!-- ---------------------LISTS--------------------
+    {
+            <ul>	Defines an unordered list
+            <ol>	Defines an ordered list
+            <li>	Defines a list item
+            <dl>	Defines a description list
+            <dt>	Defines a term in a description list
+            <dd>	Describes the term in a description list
+
+                disc	Sets the list item marker to a bullet (default)
+                circle	Sets the list item marker to a circle
+                square	Sets the list item marker to a square
+                none	The list items will not be marked
+    }
     
     <ul>
         <li>winter</li>
@@ -40,6 +62,37 @@
         <li>winter</li>
         <li>winter</li>
     </ul>
+    <ol>
+        <li>winter</li>
+        <li>winter</li>
+        <li>winter</li>
+        <li>winter</li>
+    </ol>
+    LTD
+    <dl>
+        <dt>HEAD</dt>
+        <dd>-sub</dd>
+        <dd>-sub</dd>
+        <dd>-sub</dd>
+    </dl>
+    <ul>
+        <li style="list-style-type: disc;">disc</li>
+        <li style="list-style-type: circle;">circle</li>
+        <li style="list-style-type: square;">square</li>
+        <li style="list-style-type: none;">none</li>
+    </ul>
+    <hr>
+     -->
+     <span style="background-color: white;">
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>price</li>
+            <li>Contact</li>
+            <li style="float: right;">account</li>
+         </ul>
+     </span>
+
 
 
 
