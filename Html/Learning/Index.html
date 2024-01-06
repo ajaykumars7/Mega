@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Complete html Learning</title>
     <style>
         *{
             background-color: aquamarine;
+        }
+        table, th, td{
+            background-color: white;
+            min-width: 70px;
+            height: 20px;
+            padding: 3px;
+            text-align: center;
+            border: 1px solid rgb(0, 0, 0);
+            /* border-collapse: collapse; */
+            border-radius: 7px;
         }
     </style>
 </head>
@@ -25,8 +35,92 @@
 
 
 
-    <!-- ---------------------TABLES-------------------- -->
+    <!-- ---------------------TABLES--------------------
+    {
+            <table>	Defines a table
+            <th>	Defines a header cell in a table
+            <tr>	Defines a row in a table
+            <td>	Defines a cell in a table
+            <caption>	Defines a table caption
+            <colgroup>	Specifies a group of one or more columns in a table for formatting
+            <col>	Specifies column properties for each column within a <colgroup> element
+            <thead>	Groups the header content in a table
+            <tbody>	Groups the body content in a table
+            <tfoot>	Groups the footer content in a table
+                                table, th, td {
+                                border: 1px solid black;
+                                border-collapse: collapse;}
+                                dotted     
+                                dashed     
+                                solid     
+                                double     
+                                groove     
+                                ridge     
+                                inset     
+                                outset     
+                                none     
+                                hidden  
+        tr:nth-child(even) {
+        background-color: #D6EEEE;}
+        tr:nth-child(even) {
+        background-color: rgba(150, 212, 212, 0.4);
+        }
 
+        th:nth-child(even),td:nth-child(even) {
+        background-color: rgba(150, 212, 212, 0.4);
+        }
+    }
+    <table>
+        <tr>
+            <th>winter</th>
+            <th>winter</th>
+            <th>winter</th>
+            <th>winter</th>
+        </tr>
+        <tr>
+            <td>s</td>
+            <td>s</td>
+            <td>s</td>
+            <td>s</td>
+        </tr>
+    </table>
+    <table>
+        <caption>Week Calendar</caption>
+        <tr>
+            <th colspan="3">w1</th>
+        </tr>
+        <tr>
+            <td>morning</td>
+            <td>afternoon</td>
+            <td>evening</td>
+        </tr>
+
+        <tr>
+            <th></th>
+            <th colspan="2">w1</th>
+        </tr>
+        <tr>
+            <td>morning</td>
+            <td>afternoon</td>
+            <td>evening</td>
+        </tr>
+
+            <tr>
+                <td>morning</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>afternoon</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>evening</td>
+                <td></td>
+                <td></td>
+            </tr>
+    </table> -->
 
 
 
