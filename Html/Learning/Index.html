@@ -9,15 +9,15 @@
             background-color: aquamarine;
             margin: 0px;
         }
-        table, th, td{
+        /* table, th, td{
             background-color: white;
             min-width: 70px;
             height: 20px;
             padding: 3px;
             text-align: center;
-            border: 1px solid rgb(0, 0, 0);
+            border: 1px solid rgb(0, 0, 0); */
             /* border-collapse: collapse; */
-            border-radius: 7px;
+            /* border-radius: 7px;
         }
         li{
             float: left;
@@ -26,7 +26,26 @@
         }
         ul{
             background-color: white;
+        } */
+        /* ul{
+            display: inline-block;
         }
+        li, a{
+            list-style-type: none;
+            text-decoration: none;
+            color: black;
+            display: block;
+            border: 1px solid black;
+            display: inline-block;
+            padding: 7px;
+            border-radius: 11px;
+        }
+        a{
+            background-color: white;
+        } */
+        /* div, span {
+            background-color: black;
+        } */
     </style>
 </head>
 <body>
@@ -37,6 +56,90 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+    <!-- ---------------------LAYOUT--------------------
+    {
+            <header> - Defines a header for a document or a section
+            <nav> - Defines a set of navigation links
+            <section> - Defines a section in a document
+            <article> - Defines an independent, self-contained content
+            <aside> - Defines content aside from the content (like a sidebar)
+            <footer> - Defines a footer for a document or a section
+            <details> - Defines additional details that the user can open and close on demand
+            <summary> - Defines a heading for the <details> element
+    }
+    <div>
+        <head>
+            <H1>This is a HEAD</H1>
+        </head>
+
+    </div> -->
+
+
+
+
+    <!-- ---------------------FILE PATHS--------------------
+    {
+        <img src="picture.jpg">	The "picture.jpg" file is located in the same folder as the current page
+        <img src="images/picture.jpg">	The "picture.jpg" file is located in the images folder in the current folder
+        <img src="/images/picture.jpg">	The "picture.jpg" file is located in the images folder at the root of the current web
+        <img src="../picture.jpg">	The "picture.jpg" file is located in the folder one level up from the current folder
+            } -->
+
+
+
+
+
+    <!-- ---------------------IFRAMES-------------------- -->
+    {
+            The HTML <iframe> tag specifies an inline frame
+            The src attribute defines the URL of the page to embed
+            Always include a title attribute (for screen readers)
+            The height and width attributes specify the size of the iframe
+            Use border:none; to remove the border around the iframe
+    }
+    <div class="iframe">
+        <iframe src="https://www.indiehackers.com/" style="height: 400px; width: 400px;" frameborder="0">Bard Ai</iframe>
+    </div>
+
+
+
+
+
+
+
+    <!-- ---------------------BLOCK & INLINE BLOCK--------------------
+
+    block
+    <address><article><aside><blockquote><canvas><dd><div><dl>
+        <dt><fieldset><figcaption><figure><footer><form><h1>-<h6><header>
+            <hr><li><main><nav><noscript><ol><p><pre><section><table><tfoot><ul><video></video>
+
+    inline block
+    <a><abbr><acronym><b><bdo><big><br><button><cite>
+        <code><dfn><em><i><img><input><kbd><label><map>
+            <object><output><q><samp><script><select><small>
+            <span><strong><sub><sup><textarea><time><tt><var> -->
+
+
+<!-- 
+    <div>
+        <h1>Here is the test for Div and Span means Block vs inline</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione maiores unde ea dolorem facilis eaque laborum totam repellendus fugiat, libero distinctio a quidem amet possimus exercitationem vel provident aliquam et!</p>
+    </div>
+    <span style="background-color: black; color: white;">
+        <h1>Here is the test for Div and Span means Block vs inline</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione maiores unde ea dolorem facilis eaque laborum totam repellendus fugiat, libero distinctio a quidem amet possimus exercitationem vel provident aliquam et!</p>
+    </span> -->
 
 
 
@@ -54,6 +157,20 @@
                 circle	Sets the list item marker to a circle
                 square	Sets the list item marker to a square
                 none	The list items will not be marked
+            
+                Use the HTML <ul> element to define an unordered list
+                Use the CSS list-style-type property to define the list item marker
+                Use the HTML <li> element to define a list item
+                Lists can be nested
+                List items can contain other HTML elements
+                Use the CSS property float:left to display a list horizontally
+
+                Use the HTML <ol> element to define an ordered list
+                Use the HTML type attribute to define the numbering type
+                Use the HTML <li> element to define a list item
+                Lists can be nested
+                List items can contain other HTML elements
+
     }
     
     <ul>
@@ -83,15 +200,24 @@
     </ul>
     <hr>
      -->
-     <span style="background-color: white;">
+
+     <!-- <nav>
         <ul>
-            <li>home</li>
-            <li>about</li>
-            <li>price</li>
-            <li>Contact</li>
-            <li style="float: right;">account</li>
-         </ul>
-     </span>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Price</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <ul style="float: right;">
+            <li><a href="#">account</a></li>
+        </ul>
+     </nav> -->
+     <!-- <ol type="I">
+        <li>winter</li>
+        <li>Summer</li>
+        <li>rainy</li>
+        <li>Spring</li>
+     </ol> -->
 
 
 
