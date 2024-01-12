@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Background</title>
     <style>
-        body{
+
+        .b5{
             background-image: url(../Images/5-JMjL_8_400x400.jpg);
-            background-position: right-top;
             background-repeat: no-repeat;
-            background-position: fixed;
+            background-position: right top;
+            background-attachment: fixed;
         }
-        div{
+        /* div{
             color: rgb(0, 0, 0);
             margin: 0px 40px;
             display: inline-block;
@@ -20,7 +21,7 @@
             padding: 47px;
             text-align: center;
             border-radius: 30px;
-        }
+        } */
         .b1{
             background-color: aqua;
             opacity: 0.7;
@@ -40,19 +41,55 @@
             background-image: url(../Images/5-JMjL_8_400x400.jpg);
             background-repeat: no-repeat;
         }
+        .minipage{
+            margin: 30px;
+            background-color: aquamarine;
+            height: 700px;
+        }
+        .nav{
+            background-color: black;
+            color: white;
+        }
+        li, a{
+            list-style-type: none;
+            text-decoration: none;
+            display: inline-block;
+            padding: 3px;
+            margin: 4px;
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color: greenyellow;
+        }
+        .footer{
+            background-color: black;
+            height: 300px;
+        }
+        .cont1{
+            height: 80px;
+            width: 700px;
+            background-color: white;
+        }
     </style>
 </head>
 <body>
+
+
     <!-- {
         background-position	Sets the starting position of a background image
         background-repeat	Sets how a background image will be repeated
     } -->
+
+
     <div class="b1">Background color - 1 </div>
     <div class="b2">Background color - 2 </div>
     <p class="b3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore exercitationem obcaecati consequuntur itaque eligendi soluta id commodi deleniti alias. Tempora, porro quam repudiandae enim numquam blanditiis dignissimos veniam expedita natus.
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi aperiam ab inventore esse, fugiat animi minima necessitatibus, doloremque iusto, provident eaque id eius eos expedita sit labore officiis a!
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus excepturi maxime ipsum quidem animi hic cupiditate exercitationem repellat distinctio eligendi repellendus provident ea ad quisquam, magnam sapiente temporibus impedit repudiandae?
     </p>
+
+    <div class="b5">
         <p class="b4">
 
             The background-attachment property specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page).
@@ -103,5 +140,28 @@
     
     The background-image is fixed. Try to scroll down the pa
         </p>
+    </div>
+    <hr>
+    <hr>
+    <div class="minipage">
+        <div class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Price</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+        <div class="hero">
+            <div class="cont1"></div>
+            <div class="cont1"></div>
+            <div class="cont1"></div>
+        </div>
+        <div class="footer">
+            <div class="cont1"></div>
+            <div class="cont1"></div>
+            <div class="cont1"></div>
+        </div>
+    </div>
 </body>
 </html>
