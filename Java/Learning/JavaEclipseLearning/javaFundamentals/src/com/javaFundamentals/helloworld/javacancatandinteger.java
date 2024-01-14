@@ -1,9 +1,10 @@
 package com.javaFundamentals.helloworld;
 
-public class javaIntsandCancatination {
+public class javacancatandinteger {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+
 		String FirstName = "Ajay";
 		String lastName = "Kumar";
 				
