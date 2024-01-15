@@ -21,6 +21,8 @@ public class classesandobjects {
 		System.out.println("name is " + B2N + " Colour is " + B2C);
 		myBall2.defalte();
 		
+		System.out.println(accessmodifier.b());
+		
 	}
 
 }.
