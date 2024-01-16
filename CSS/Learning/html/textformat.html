@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Format</title>
+    <style>
+        .cont1{
+            background-color: black;
+            padding: 11px;
+            border-radius: 7px;
+            border: 3px solid darkgreen;
+            margin: 11px;
+        }
+        .cont1 h1{
+            color: darkgreen;
+        }
+        .cont1 p{
+            color:white;
+        }
+        .cont2{
+            background-color: rgb(81, 195, 77);
+            padding: 11px;
+            border-radius: 7px;
+            border: 3px solid rgb(0, 0, 0);
+            margin: 11px;
+        }
+        .cont2 h1{ 
+            text-align: center;
+            unicode-bidi: bidi-override;
+            /* background-color: blueviolet; */
+        }
+        .cont2 p{
+            color:white;
+
+        }
+        .cont3 h1{
+            text-decoration-line: line-through;
+            text-decoration-line: underline;
+        }
+        .cont3 p{
+            text-decoration-line: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- {
+        color
+        text-align
+        text-align-last
+        direction
+        unicode-bidi
+        vertical-align
+        direction	Specifies the text direction/writing direction
+        text-align	Specifies the horizontal alignment of text
+        text-align-last	Specifies how to align the last line of a text
+        unicode-bidi	Used together with the direction property to set or return whether the text should be overridden to support multiple languages in the same document
+        vertical-align	Sets the vertical alignment of an element
+        text-decoration-line
+        text-decoration-color
+        text-decoration-style
+        text-decoration-thickness
+        text-decoration
+    } -->
+    <div class="cont1">
+        <h1>This is Heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo soluta esse repellat odio aperiam velit at reprehenderit voluptatibus eligendi possimus, tempore, saepe iusto mollitia itaque voluptate eos eum? Eveniet, architecto?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. In necessitatibus ipsa maiores doloremque corporis debitis, corrupti, eum eligendi nisi animi vero velit, placeat odit repellat veritatis atque unde similique ab.
+        </p>
+    </div>
+    <div class="cont2">
+        <h1>This is Heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo soluta esse repellat odio aperiam velit at reprehenderit voluptatibus eligendi possimus, tempore, saepe iusto mollitia itaque voluptate eos eum? Eveniet, architecto?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. In necessitatibus ipsa maiores doloremque corporis debitis, corrupti, eum eligendi nisi animi vero velit, placeat odit repellat veritatis atque unde similique ab.
+        </p>
+    </div>
+    <div class="cont3">
+        <h1>This is Heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo soluta esse repellat odio aperiam velit at reprehenderit voluptatibus eligendi possimus, tempore, saepe iusto mollitia itaque voluptate eos eum? Eveniet, architecto?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. In necessitatibus ipsa maiores doloremque corporis debitis, corrupti, eum eligendi nisi animi vero velit, placeat odit repellat veritatis atque unde similique ab.
+        </p>
+    </div>
+</body>
+</html>
