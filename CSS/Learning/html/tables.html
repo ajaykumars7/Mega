@@ -19,9 +19,19 @@
             width: 160px;
             height: 30px;
         } */
-        table td th{
-            border: 3px solid black;
+        table{
+            border-collapse: collapse;
+            width: 100%;
         }
+        th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #000000;
+        }
+        tr:hover{
+            background-color: yellow;
+        }
+        tr:nth-child(even) {background-color: #f2f2f2;}
     </style>
 </head>
 <body>
@@ -29,7 +39,7 @@
         <tr>
             <th>first name</th>
             <th>last namme</th>
-        </tr>
+        </tr> 
         <tr>
             <td>AJay</td>
             <td>Kumar</td>
@@ -44,6 +54,14 @@
         <tr>
             <th>AKJAS</th>
             <th>JDLKSJL</th>
+        </tr>
+        <tr>
+            <td>sjhdjkas</td>
+            <td>dhsdhkjdhks</td>
+        </tr>
+        <tr>
+            <td>sjhdjkas</td>
+            <td>dhsdhkjdhks</td>
         </tr>
         <tr>
             <td>sjhdjkas</td>
