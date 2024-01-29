@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            padding: 20px;
+        }
+        .vis{
+            overflow: visible;
+        }
+        .hid{
+            overflow: hidden;
+        }
+        .scroll{
+            overflow: scroll;
+        }
+        .auto{
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+        }
+        p{
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 400;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="vis">
+        <h1>visible</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, earum. Magnam perspiciatis architecto repellendus sint nihil, tempore, aut ad quasi sequi possimus voluptatum? Quas earum, ullam molestiae vel quae magnam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima cumque consequuntur saepe corporis ab possimus placeat ducimus odit iusto dolores, exercitationem, unde officiis quia. Quam suscipit minima vero dignissimos rem.</p>
+    </div>
+    <div class="hid">
+        <h1>hidden</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, earum. Magnam perspiciatis architecto repellendus sint nihil, tempore, aut ad quasi sequi possimus voluptatum? Quas earum, ullam molestiae vel quae magnam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima cumque consequuntur saepe corporis ab possimus placeat ducimus odit iusto dolores, exercitationem, unde officiis quia. Quam suscipit minima vero dignissimos rem.</p>
+    </div>
+    <div class="scroll">
+        <h1>scroll</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, earum. Magnam perspiciatis architecto repellendus sint nihil, tempore, aut ad quasi sequi possimus voluptatum? Quas earum, ullam molestiae vel quae magnam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima cumque consequuntur saepe corporis ab possimus placeat ducimus odit iusto dolores, exercitationem, unde officiis quia. Quam suscipit minima vero dignissimos rem.</p>
+    </div>
+    <div class="auto">
+        <h1>auto</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, earum. Magnam perspiciatis architecto repellendus sint nihil, tempore, aut ad quasi sequi possimus voluptatum? Quas earum, ullam molestiae vel quae magnam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima cumque consequuntur saepe corporis ab possimus placeat ducimus odit iusto dolores, exercitationem, unde officiis quia. Quam suscipit minima vero dignissimos rem.</p>
+    </div>
+</body>
+</html>

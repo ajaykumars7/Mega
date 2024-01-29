@@ -5,12 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Position</title>
     <style>
+        body{
+            margin: 10px;
+        }
         .con1{
             width: 200px;
         }
         div{
             padding: 10px;
             color: white;
+        }
+        .pos{
+            /* position: relative;
+            left: 30px; */
+            /* position: fixed;
+            top: 0px;
+            right: 0px; */
+            position: -webkit-sticky;
+            position: sticky;
+            top: 10px;
         }
     </style>
 </head>
@@ -22,8 +35,9 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid aspernatur dignissimos labore facilis eligendi nemo quasi iste dolor voluptates nostrum libero, voluptatum, vero debitis at nulla nesciunt veniam, saepe quaerat.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid aspernatur dignissimos labore facilis eligendi nemo quasi iste dolor voluptates nostrum libero, voluptatum, vero debitis at nulla nesciunt veniam, saepe quaerat.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid aspernatur dignissimos labore facilis eligendi nemo quasi iste dolor voluptates nostrum libero, voluptatum, vero debitis at nulla nesciunt veniam, saepe quaerat.</p>
-            <h1 style="background-color: white;color: black; text-align: center; position: sticky; padding: 7px; border: 2px solid black; border-radius: 30px;">sticky</h1>
         </div>
+        <h1 class="pos" style="background-color: white;color: black; text-align: center; padding: 7px; border: 2px solid black; border-radius: 30px;">sticky</h1>
+
         <div style="background-color: rgb(26, 53, 255);">
             <h1>sdjhsjkhd</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid aspernatur dignissimos labore facilis eligendi nemo quasi iste dolor voluptates nostrum libero, voluptatum, vero debitis at nulla nesciunt veniam, saepe quaerat.</p>
