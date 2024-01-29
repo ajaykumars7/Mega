@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        body{
+            background-color: cornflowerblue;
+        }
+        .main{
+            padding: 7px;
+            /* margin: 20px; */
+            background-color: white;
+            height: 700px;
+            width: 700px;
+        }
+        li, a{
+            color: white;
+            text-decoration: none;
+            list-style-type: none;
+            display: inline-block;
+            padding: 7px;
+        }
+        li a:hover{
+            background-color: white;
+            color: black;
+            border-radius: 5px;
+        }
+        ul{ 
+            background-color:cornflowerblue;
+        }
+        .hero{
+            /* position: relative;
+            left: 1px; */
+            background-color: cornflowerblue;
+            height: 540px;
+            width: 700px;
+        }
+        .foo{
+            background-color: cornflowerblue;
+            position: relative;
+            top: 20px;
+            height: 50px;
+            width: 700px;
+        }
+        .nav ul, .hero, .foo{
+            border-radius: 7px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="hero">
+            <div class="opt"></div>
+            <div class="con"></div>
+        </div>
+        <div class="foo"></div>
+    </div>
+</body>
+</html>
