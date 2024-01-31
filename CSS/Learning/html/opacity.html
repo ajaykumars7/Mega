@@ -5,8 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            margin: 0px;
+        }
         p.lite{
             opacity: 0.5;
+        }
+        .ba{
+            width: 700px;
+            height: 300px;
+            background-color: red;
+            z-index: -1;
+        }
+        .fr{
+            background-color: chartreuse;
+            height: 200px;
+            width: 300px;
+            z-index: 0;
+            margin: auto;
+            text-align: center;
+            opacity: 0.5;
+        }
+        h1{
+            opacity: 1;
         }
     </style>
 </head>
@@ -14,6 +35,14 @@
     <img src="../Images/5-JMjL_8_400x400.jpg" alt="jpg">
     <h1>This is Heading</h1>
         <p class="lite">This is a Sub heading that tell the details of below paragraph</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit aspernatur aperiam minus mollitia. Ipsam voluptatibus, ipsa porro iure odio temporibus commodi aspernatur distinctio cupiditate! At eum veritatis amet tempora excepturi.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit aspernatur aperiam minus mollitia. Ipsam voluptatibus, ipsa porro iure odio temporibus commodi aspernatur distinctio cupiditate! At eum veritatis amet tempora excepturi.</p>\
+
+
+
+    <div class="ba">
+        <div class="fr">
+            <h1>It is a Heading</h1>
+        </div>
+    </div>
 </body>
 </html>
