@@ -37,6 +37,52 @@
                 float: none;
             }
         }
+        /* -------------------------------------------------------------- */
+        ul.sidenav{
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            background-color: rgb(0, 145, 255);
+            width: 25%;
+            position: fixed;
+            height: 200px;
+            overflow: auto;
+        }
+
+        ul.sidenav li a{
+            color: white;
+            display: block;
+            text-decoration: none;
+            padding: 14px 16px;
+        }
+        ul.sidenav li a:hover{
+            color: black;
+            background-color: rgb(0, 94, 255) ;
+        }
+        div.content{
+            margin-left: 25%;
+            padding: 1px 16px;
+            height: 1000px;
+        }
+        @media screen and (max-width: 900px) {
+        ul.sidenav {
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+        
+        ul.sidenav li a {
+            float: left;
+            padding: 15px;
+        }
+        
+        div.content {margin-left: 0;}
+        }
+
+        @media screen and (max-width: 400px) {
+            ul.topnav li.right, ul.topnav li{
+                float: none;
+            }}
     </style>
 </head>
 <body>
@@ -54,6 +100,11 @@
             <li><a href="#">Contact</a></li>
             <li><a href="#">About</a></li>
         </ul>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quibusdam tenetur, non fugit quae nihil hic officiis placeat alias accusantium repellat omnis in a, reprehenderit autem enim quia magnam! Eius?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio officiis recusandae illum quis sint repudiandae itaque sit odit dolores minima culpa ratione non deserunt eum velit voluptatibus, aut ea eligendi?</p>
+        </div>
+        
         <h1>Responsive dropdown Nav</h1>
         <ul class="dropdownnav">
             <li><a href="#">Home</a></li>
