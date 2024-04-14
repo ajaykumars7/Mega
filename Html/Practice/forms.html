@@ -3,12 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FORMS</title>
+    <title>Practice</title>
+    <style>
+        button{
+            border: 0px;
+            padding: 10px;
+            border-radius: 30px;
+        }
+        button:hover{
+            background-color: deeppink;
+            color: black;
+            /* padding: 7px; */
+        }
+        .b1{
+            background-color: blueviolet;
+            color: white;
+        }
+        #b2{
+            background-color: aquamarine;
+        }
+        #b2:hover{
+            background-color: aliceblue;
+            columns: black;
+        }
+    </style>
 </head>
 <body>
+
+
+
+
+
+    <hr>
+    <h1 class="withname"></h1>
+
+
+    <hr>
+    <button onclick="total += 1; document.querySelector('.showcase').innerHTML = `the total value is ${total}`;">Add 1</button>
+    <button onclick="total -= 1; document.querySelector('.showcase').innerHTML = `the total value is ${total}`;">minus 1</button>
+    <button onclick="total += 2; document.querySelector('.showcase').innerHTML = `the total value is ${total}`;">Add 2</button>
+    <h1 class="showcase"></h1>
+
+    <hr>
     Name : <input type="text" name="enter name" placeholder="name" required="required">
     User ID : <input type="text"> <br> <br>
     Password : <input type="password" placeholder="Enter your password">
     <input type="submit" value="submit">
+
+
+
+    <hr>
+    <button>Click</button>
+    <hr>
+    <button class="b1">Class button</button>
+    <button id="b2">ID button</button>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, sapiente aperiam. Rem est earum, temporibus sapiente assumenda quos mollitia quo.</p>
+
+    <main>
+        
+        <header>
+           <nav></nav> 
+        </header>
+        <main>
+           <article></article>
+           <aside></aside> 
+        </main>
+        <footer></footer>
+    </main>
+
+
+    <hr>
+    <button style="padding: 10px 40px; background-color: rgb(75, 255, 47);" onclick="alert('you are in cart');">Add to cart</button>
+    <button style="border: 3px solid black; border-radius: 10px; padding:10px 40px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" onclick="alert('you are in wishlist')"> ❤ WISHLIST</button>
+
+    
+    <hr>
+    <p style="Google-Sans, Roboto, Helvetica Neue, Arial, sans-serif; font-weight: 400; size: 12px; line-height: 16px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga animi similique dolores! Reprehenderit sapiente voluptate accusamus autem aperiam rem, inventore enim? Minima in sit quo asperiores iure reiciendis cumque fuga.</p>
+
+    <script src="./script.js"></script>
+
 </body>
 </html>
