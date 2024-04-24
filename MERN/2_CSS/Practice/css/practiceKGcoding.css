@@ -12,6 +12,26 @@
 
 
 
+.out, .in{
+    border: 2px solid black;
+    border-radius: 30px;
+    height: 30px;
+}
+.in{
+    background-color: aqua;
+    animation: loading 3s;
+    animation-iteration-count: 7;
+
+}
+
+@keyframes loading {
+    0%{width: 0%;}
+    30%{width: 60%;}
+    70%{width: 70%;}
+    100%{width: 100%;}
+}
+
+
 
 
 /* 
