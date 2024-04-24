@@ -7,6 +7,103 @@
 
 
 
+
+
+/* 
+
+.conmain{
+    padding: 20px;
+    height: 700px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
+}
+.con1, .con2, .con3,.con4{
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.274);
+    margin: 10px;
+    background-color: white;
+    height: 100px;
+    width: 200px;
+} */
+
+
+
+
+
+/* *{
+    padding: 0px; margin: 0px;
+}
+header{
+    margin-bottom: 20px;
+}
+nav{
+    padding: 15px;
+    background-color: aquamarine;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    background: white;
+    color: black;
+    padding: 7px;
+    border-radius: 7px;
+    text-decoration: none;
+} */
+
+/* a{
+    padding: 8px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+} */
+/* .mai{
+    height: 300px;
+    width: 300px;
+    background-color: green;
+    border-radius: 50%;
+}
+.con1, .con2, .con3{
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+.con3{
+    position: relative;
+    top: -20px;
+    right: 70px;
+    z-index: 1;
+}
+.con2{
+    position: fixed;
+    top: 100px;
+    right: 100px;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    background-color: burlywood;
+    position: fixed;
+    bottom: 0px;
+}
+footer div h6{
+    display: inline-block;
+    padding: 10px;
+} */
+
+
+
+
 /* .box1{
     height: 100px;
     width: 100px;
