@@ -15,7 +15,7 @@
 .logo img{
     display: inline-block;
     height: 40px;
-    padding: 5px 30px 10px;
+    padding: 0px 30px;
 }
 .navlinks ul li{
     display: inline-block;
@@ -31,29 +31,48 @@ a{
     color: black;
 }
 nav{
+    align-items: center;
+    padding: 10px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.319);
 }
-
+.searchbox{
+    width: 100%;
+    background-color: rgb(203, 202, 202);
+}
+.iconlinks{
+    float: right;
+}
+.navlinks{
+    text-align: center;
+}
 
 
 
 
 
 /* ---------------------------------------------------------------- */
+main{
+    padding: 10px;
+}
 .container1 img{
     width: 100%;
     padding: 20px 0px;
 }
-.container2 h3{
+.container2 h3, .container3 h3{
     color: rgba(0, 0, 0, 0.712);
     padding: 10px 20px;
 }
-.branding img{
-    /* height: 150px; */
+.branding, .categorying{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.branding img , .categorying img{
+    height: 300px;
+    padding: 10px;
 
 }
-
-
 
 
 
