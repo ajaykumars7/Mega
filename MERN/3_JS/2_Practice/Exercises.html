@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercises</title>
+</head>
+<body>
+    <button class="but1" onclick="total += 1;
+    document.querySelector('.res').innerHTML = `Total result is ${total}`;
+    return total;">ADD 1</button>
+    <button class="but2" onclick="total += 2;
+    document.querySelector('.res').innerHTML = `Total result is ${total}`;
+    return total;">ADD 2</button>
+    <h1 class="res"></h1>
+    <script>
+        let total = 0;
+        // let wint = document.querySelector('.but1').click;
+        // wint.onclick = function(){
+        //     total += 1;
+        //     document.querySelector('.res').innerHTML = `Total result is ${total}`;
+        //     return total;
+        // }
+        // let wint = document.querySelector('.but1').click = function{
+        //     total += 1;
+        //     document.querySelector('.res').innerHTML = `Total result is ${total}`;
+        // }
+        // let wint1 = document.querySelector('.but2').click = function{
+        //     total += 2;
+        //     document.querySelector('.res').innerHTML = `Total result is ${total}`;
+        // }
+        document.querySelector('.res').innerHTML = `Total result is ${total}`;
+    </script>
+</body>
+
+</html>
