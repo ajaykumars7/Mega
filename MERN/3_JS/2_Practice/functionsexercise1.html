@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function</title>
+</head>
+<body>
+    
+
+
+    <script>
+        let number = 0;
+        let check = oddOrEven(20);
+        console.log(check)
+        function oddOrEven(number){
+            if (number%2==0){
+                return 'even';
+            }else{
+                return 'odd';
+            }
+            // number = (number%2==0) ? 'even' : 'odd';
+        }
+        let number1=20, number2 = 20;
+        let checkaa = checkbigger(number1, number2);
+        console.log(checkaa)
+        function checkbigger(number1, number2){
+            if (number1 > number2){
+                return 'number1 is bigger';
+            }else if (number1 < number2){
+                return 'number1 is smaller';
+            }else{
+                return "both are equal";
+            }
+        }
+    
+        // let C;
+        convertion(30)
+        function convertion(C){
+            let  F = (9/5) * C + 32;
+            console.log(F);
+        }
+    </script>
+
+
+</body>
+</html>
