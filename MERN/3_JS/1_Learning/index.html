@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Learning</title>
     <style>
+        body{
+            background: #BBD2C5;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
         .con1{
             background-color: aqua;
             padding: 20px;
@@ -34,14 +39,14 @@
 
         <!-- <button class="add1">add 1</button>
         <button class="add2">add 2</button> -->
-        <h1 id="Total">djskj</h1>
+        <!-- <h1 id="Total">djskj</h1> -->
         
 
           <script>
         // let result = 0;
         // document.querySelector('.add1').click() = result +=1;
         // document.querySelector('.add2').click() = result +=2;
-        document.getElementById('total').innerHTML = "result";
+        // document.getElementById('total').innerHTML = "result";
 
 
 
@@ -53,6 +58,15 @@
         // document.getElementById('butto').click();
 
 
+
+        // let a,b;
+        sum(25,30)
+        sum(75,100)
+
+        function sum(a,b){
+            let Total = a + b;
+            console.log(Total);
+        }
 
         </script>
 </body>
