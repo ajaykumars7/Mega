@@ -22,22 +22,34 @@
         }
         let b = a;
         // console.log(b);
-        console.log(a['name']);
+        // console.log(a['name']);
 
         let trial = {
             message: 'good job',
             status:'complete'
         }
         let {message, status} = trial;
-        console.log(message, status);
+        // console.log(message, status);
 
-        isidentitical(p1, p2){
-            if (p1 === p2) {
-                console.log('both products are equal')
-            }else {
-                console.log('not equal')
-            }
-        }
+        // isidentitical(p1, p2){
+        //     if (p1 === p2) {
+        //         console.log('both products are equal')
+        //     }else {
+        //         console.log('not equal')
+        //     }
+        // };
+        let jsontrial = {
+            "message1": "good job",
+            "message2": "well done",
+            "status": "complete",
+            "finally": "congratulation"
+        };
+        console.log(jsontrial)
+        JSON.stringify(jsontrial);
+        console.log(jsontrial)
+
+        
+
     </script>
 </body>
 </html>
