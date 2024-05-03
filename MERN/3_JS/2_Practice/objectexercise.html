@@ -10,25 +10,25 @@
 
 
     <script>
-        let combo = {
-            shirt : 'formals full shirt',
-            pant : 'track',
-        };
+        // let combo = {
+        //     shirt : 'formals full shirt',
+        //     pant : 'track',
+        // };
 
-        let a = {
-            name : 'aj',
-            id: 3,
-            location: 'adda'
-        }
-        let b = a;
+        // let a = {
+        //     name : 'aj',
+        //     id: 3,
+        //     location: 'adda'
+        // }
+        // let b = a;
         // console.log(b);
         // console.log(a['name']);
 
-        let trial = {
-            message: 'good job',
-            status:'complete'
-        }
-        let {message, status} = trial;
+        // let trial = {
+        //     message: 'good job',
+        //     status:'complete'
+        // }
+        // let {message, status} = trial;
         // console.log(message, status);
 
         // isidentitical(p1, p2){
@@ -38,16 +38,36 @@
         //         console.log('not equal')
         //     }
         // };
-        let jsontrial = {
-            "message1": "good job",
-            "message2": "well done",
-            "status": "complete",
-            "finally": "congratulation"
-        };
-        console.log(jsontrial)
-        JSON.stringify(jsontrial);
-        console.log(jsontrial)
+        // let jsontrial = {
+        //     "message1": "good job",
+        //     "message2": "well done",
+        //     "status": "complete",
+        //     "finally": "congratulation"
+        // };
+        // console.log(jsontrial)
+        // JSON.stringify(jsontrial);
+        // console.log(jsontrial)
 
+        let t1 = {
+            name: 'ajay',
+            idno:  1
+        };
+        let t2 = {
+            name: 'ajay',
+            idno: 1
+        };
+        function checkEqualOrNOt(){
+            if(typeof t1 == typeof t2){
+                if(t1.name == t2.name && t1.idno == t2.idno){
+                    console.log('equal');
+                }else{
+                    console.log('not equal')
+                }
+            }else{
+                console.log('not equal')
+            }
+        }
+        checkEqualOrNOt();
         
 
     </script>
