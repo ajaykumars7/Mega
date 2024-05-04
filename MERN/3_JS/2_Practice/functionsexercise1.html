@@ -41,10 +41,16 @@
         //     console.log(F);
         // }
 
-        localStorage.setItem('checkbigger','sdhjkhsdkjh');
-        console.log(localStorage.getItem('checkbigger'))
+        // localStorage.setItem('checkbigger','sdhjkhsdkjh');
+        // console.log(localStorage.getItem('checkbigger'))
 
 
+        let product1 = {
+            name: 'formal shirt',
+            color: 'black',
+            size: 'large'
+        }
+        localStorage.getItem('product1' , JSON.stringify(product1));
     </script>
 
 
