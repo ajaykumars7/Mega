@@ -2,4 +2,6 @@
 //     return a+b;
 // }
 
-console.log("tytytyty");
+// console.log("tytytyty");
+
+alert('shdchskjacjhsdak');
