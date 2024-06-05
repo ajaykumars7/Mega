@@ -15,6 +15,23 @@ Mern stack
 Java full Stack
       - Core Java
       - Advance Java
+      (core java
+       advance java
+       spring
+       spring boot
+       JPA
+       Hibernate
+       java web Application
+       Rest API
+       React
+       JUnit
+       Mockito
+       AOP
+       Maven
+       gradle
+       docker
+       aws
+      )
 
 Devops
       - Basics of DevOps
