@@ -1,7 +1,7 @@
 # Mega
 Learn Coding
 
-Mern stack -> Java Full stack -> DevOps/Cloud Computing
+Mern stack -> Java Full stack -> DevOps/Cloud Computing(AWS)
 
 Mern stack
       - HTML
