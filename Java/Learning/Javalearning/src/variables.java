@@ -23,5 +23,13 @@ class variables{
 //        Boolean
         boolean isadult = true;
         System.out.println(isadult);
+
+
+//        naming convention
+//        camelCase
+//        snake_case
+//        Kebab-case
+
     }
+
 }
