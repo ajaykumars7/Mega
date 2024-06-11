@@ -8,6 +8,7 @@ class ArithmeticOperators{
         int num1 = input.nextInt();
         int num2 = input.nextInt();
 //        Arithmetic Operators
+
 //        Addition
         int Sum = num1 + num2;
 //        Subtraction
@@ -23,5 +24,36 @@ class ArithmeticOperators{
         System.out.println("mul is = " + mul);
         System.out.println("div is = " + div);
         System.out.println("mod is = " + mod);
+
+
+
+//    Shorthand
+        int a = 5;
+        int b = 10;
+        System.out.println(a);
+        a += 10;
+        System.out.println(b);
+        b = b +5;
+        System.out.println(a);
+        System.out.println(b);
+
+
+//        unary
+        int d = 5;
+        System.out.println(d);
+        d = --d;
+        System.out.println(d);
+        d = ++d;
+        System.out.println(d);
+        d = d++;
+        System.out.println(d);
+        d = d--;
+        System.out.println(d);
+        System.out.println(d);
+
+
+
+
+
     }
 }
