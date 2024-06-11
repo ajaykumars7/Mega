@@ -1,3 +1,5 @@
+package Exercises;
+
 class variables{
     public static void main(String[] args){
 //        Integer

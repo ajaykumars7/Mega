@@ -1,3 +1,5 @@
+package Exercises;
+
 import java.util.Scanner;
 
 class inputsFromUser {
@@ -14,4 +16,3 @@ class inputsFromUser {
 
     }
 }
-
