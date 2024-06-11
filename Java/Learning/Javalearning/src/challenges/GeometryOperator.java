@@ -34,5 +34,6 @@ class GeometryOperator {
         float cel = (fah - 32) * ((float) 5 / 9);
         System.out.println("degree celsius is " + cel);
 
+
     }
 }
