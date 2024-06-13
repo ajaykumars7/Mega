@@ -23,5 +23,15 @@ class LogicalOperator{
         }else{
             System.out.println("the number is odd");
         }
+//        check the number is greatest of three numbers
+        System.out.println("enter the three numbers : ");
+        int num1 = input.nextInt();
+        int num2 = input.nextInt();
+        int num3 = input.nextInt();
+        if (num1 < num2 & num3 < num2){
+            System.out.println("num2 is greater" + num2);
+        } else if (num) {
+
+        }
     }
 }
