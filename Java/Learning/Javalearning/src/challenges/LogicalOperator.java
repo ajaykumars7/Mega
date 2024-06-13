@@ -14,5 +14,14 @@ class LogicalOperator{
         }else{
             System.out.println("the number is zero");
         }
+
+//        check the number is odd or even
+        System.out.print("enter the number : ");
+        int number1 = input.nextInt();
+        if (number1 % 2 == 0 ){
+            System.out.println("the number is even");
+        }else{
+            System.out.println("the number is odd");
+        }
     }
 }
