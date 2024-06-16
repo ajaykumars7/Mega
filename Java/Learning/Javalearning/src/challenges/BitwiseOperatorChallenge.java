@@ -16,5 +16,10 @@ class BitwiseOperatorChallenge{
         System.out.println(bitwiseXor);
         int bitwiseNot = ~num2;
         System.out.println(bitwiseNot);
+
+        int leftshiftOperator = num1 << 2;
+        System.out.println(leftshiftOperator);
+        int rightshiftOperator = num1 >> 2;
+        System.out.println(rightshiftOperator);
     }
 }
