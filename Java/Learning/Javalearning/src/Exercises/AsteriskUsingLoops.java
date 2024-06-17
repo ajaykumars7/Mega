@@ -17,15 +17,16 @@ class AsteriskUsingLoops{
         System.out.println("* * * *");
         System.out.println("* * * * *");
 
-        int num = 0;
-        while(num < 5){
-            System.out.println("* ");
-            int i = 0;
-            while(i < num){
-                System.out.println("* ");
-                i++;
+        int rows = 5;
+        int i = 1;
+        while (i <= rows){
+            int j = 1;
+            while (j <= i){
+                System.out.print("* ");
+                j++;
             }
-            num++;
+            System.out.println("\n");
+            i++;
         }
         asteriskRight();
 
