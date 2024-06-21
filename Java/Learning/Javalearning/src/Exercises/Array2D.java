@@ -9,6 +9,7 @@ public class Array2D {
             while (j < number.length){
                 System.out.print(number[i][j] + " ");
                 j++;
+                
             }
             System.out.println();
             i++;
