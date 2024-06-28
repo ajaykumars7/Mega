@@ -10,6 +10,7 @@ public class ArraySumAverage {
         System.out.println(sum);
         System.out.println(average);
     }
+
     public static int sum(int[] numArray){
         int sum = 0, i = 0;
         while(i < numArray.length){
