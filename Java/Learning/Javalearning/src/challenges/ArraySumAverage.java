@@ -8,6 +8,7 @@ public class ArraySumAverage {
         int sum = sum(numArray);
         float average = average(numArray);
         System.out.println(sum);
+
         System.out.println(average);
     }
 
