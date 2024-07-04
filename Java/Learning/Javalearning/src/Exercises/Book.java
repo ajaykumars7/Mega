@@ -9,7 +9,6 @@ public class Book {
 
     }
     public void returnBook(){
-
     }
     public static int getTotalBooks(){
 
