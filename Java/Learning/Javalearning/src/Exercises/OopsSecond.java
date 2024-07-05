@@ -14,14 +14,14 @@ public class OopsSecond {
             if(Age >= 0){
                 return Age;
             }else{
-                System.out.println("Age is undefined");
+                return 0;
             }
         }
         String setname(){
-
+            return Name;
         }
         String getPosition(){
-
+            return Position;
         }
         int getAge(){
             return Age;
