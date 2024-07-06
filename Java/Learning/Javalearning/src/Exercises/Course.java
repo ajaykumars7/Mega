@@ -1,13 +1,10 @@
 package Exercises;
 
 public class Course {
-    static int MAXCAPACITY;
+    static int MAXCAPACITY = 100;
     String courseName;
     int enrolledStudents;
 
-    static{
-        MAXCAPACITY = 0;
-    }
     {
         MAXCAPACITY ++;
     }
