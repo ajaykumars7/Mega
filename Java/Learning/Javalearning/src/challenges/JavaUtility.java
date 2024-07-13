@@ -16,4 +16,10 @@ public class JavaUtility {
         }
         return numbers;
     }
+    public static int simpleNumber(){
+        Scanner input = new Scanner(System.in);
+        System.out.println("enter the number : ");
+        int numb = input.nextInt();
+        return numb;
+    }
 }
