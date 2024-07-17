@@ -16,6 +16,8 @@ public class FileReader2 {
 //            }
 
 //            while((reader = character)  != -1){
+
+
 //                System.out.println((char) character);
 //            }
 
