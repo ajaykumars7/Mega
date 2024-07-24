@@ -32,6 +32,7 @@ public class FileReader2 {
                 System.out.print((char) character);
             }
 
+
         }catch(IOException e){
             e.printStackTrace();
         }finally{
