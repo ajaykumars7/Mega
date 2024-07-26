@@ -6,6 +6,7 @@ public class ConcatString {
      for(String str: strs){
 
          sb.append(str).append(" ");
+
      }
      return sb.toString();
  }
