@@ -5,6 +5,7 @@ public class ConcatString {
      StringBuilder sb = new StringBuilder();
      for(String str: strs){
 
+
          sb.append(str).append(" ");
 
      }
