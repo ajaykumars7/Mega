@@ -1,39 +1,36 @@
 # Mega
-Learn Coding
+**Learn Coding**
 
-Mern stack -> Java Full stack -> DevOps/Cloud Computing(AWS)
+### Pathway:
+- MERN Stack -> Java Full Stack -> DevOps/Cloud Computing (AWS)
 
-Mern stack
-      - HTML
-      - CSS
-      - JS
-      - React & Redux (bootstrap)
-      - MongoDB
-      - NodeJS
-      - ExpressJS
+### MERN Stack
+- HTML
+- CSS
+- JavaScript (JS)
+- React & Redux (with Bootstrap)
+- MongoDB
+- NodeJS
+- ExpressJS
 
-Java full Stack
-      - Core Java
-      - Advance Java
-      (core java
-       advance java
-       spring
-       spring boot
-       JPA
-       Hibernate
-       java web Application
-       Rest API
-       React
-       JUnit
-       Mockito
-       AOP
-       Maven
-       gradle
-       docker
-       aws
-      )
+### Java Full Stack
+- Core Java
+- Advanced Java
+  - Spring Framework
+  - Spring Boot
+  - JPA & Hibernate
+  - Java Web Applications
+  - REST API
+  - React
+  - JUnit
+  - Mockito
+  - AOP (Aspect-Oriented Programming)
+  - Maven
+  - Gradle
+  - Docker
+  - AWS
 
-Devops
-      - Basics of DevOps
-      - Git
-      - Jenkins
+### DevOps
+- Basics of DevOps
+- Git
+- Jenkins
