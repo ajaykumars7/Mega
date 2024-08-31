@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ajay Kumar S - Java Full Stack Developer">
+    <title>Ajay Kumar S - Full Stack Developer</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        #about {
+            background-color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        #about h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        #about p {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        #projects {
+            background-color: #f8f9fa;
+            padding: 60px 20px;
+        }
+
+        #projects h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 40px;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .project-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .project-image {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .project-content {
+            padding: 20px;
+        }
+
+        .project-content h3 {
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+
+        .project-content p {
+            font-size: 1rem;
+            margin: 10px 0;
+        }
+
+        .project-content a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .project-content a:hover {
+            color: #007bff;
+        }
+
+        #contact {
+            background-color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        #contact h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #f8f9fa;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .contact-form button {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .contact-form button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #444;
+            color: #fff;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            nav a {
+                font-size: 1rem;
+                margin: 0 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ajay Kumar S</h1>
+    <p>Java Full Stack Developer</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I’m Ajay Kumar S, a Java Full Stack Developer passionate about building scalable and efficient web applications. 
+        With a strong foundation in Java and modern frontend frameworks, I deliver full-stack solutions that are not only functional but also user-friendly.
+        I love learning new technologies and tackling challenges that push my skills to the next level.
+    </p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+
+        <div class="project-card">
+            <div class="project-image" style="background-image: url('https://via.placeholder.com/300x200');"></div>
+            <div class="project-content">
+                <h3>Project 1: [Project Name]</h3>
+                <p>Brief description of the project. Explain the technologies used, the purpose of the project, and the outcome.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image" style="background-image: url('https://via.placeholder.com/300x200');"></div>
+            <div class="project-content">
+                <h3>Project 2: [Project Name]</h3>
+                <p>Brief description of the project. Explain the technologies used, the purpose of the project, and the outcome.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image" style="background-image: url('https://via.placeholder.com/300x200');"></div>
+            <div class="project-content">
+                <h3>Project 3: [Project Name]</h3>
+                <p>Brief description of the project. Explain the technologies used, the purpose of the project, and the outcome.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-form">
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Ajay Kumar S. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
