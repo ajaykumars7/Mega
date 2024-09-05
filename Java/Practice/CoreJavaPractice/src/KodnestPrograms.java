@@ -11,8 +11,8 @@ public class KodnestPrograms {
 
 
         //METHODS
-        System.out.println("Area of the square is " + areaOfSquare(10,3));
-
+        System.out.println("Area of the square is " + areaOfSquare(20,5));
+        System.out.println("Area of the square is " + perimeterOfRectanle(20,5));
 
         //TYPE CASTING PROBLEM
 
@@ -65,8 +65,12 @@ public class KodnestPrograms {
 //        System.out.println("num1 ^ num2 = " +( num1 ^ num2));
 
             }
-            public static int areaOfSquare(int l, int b){
+    public static int areaOfSquare(int l, int b){
         int area = l * b;
         return area;
-            }
+    }
+    public static double perimeterOfRectanle(double l, double b){
+        double perimeter = 2*(l+b);
+        return perimeter;
+    }
 }
