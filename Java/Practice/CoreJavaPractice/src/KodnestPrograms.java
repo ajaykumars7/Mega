@@ -9,18 +9,23 @@ public class KodnestPrograms {
 
 
 
+
+        //METHODS
+        System.out.println("Area of the square is " + areaOfSquare(10,3));
+
+
         //TYPE CASTING PROBLEM
 
-        int a = 10;
-        int b = 4;
-
-        int res = a / b; // 2
-        double res1 = a / b; // 2.0
-        double res2 = a /(double) b; //2.5
-
-        System.out.println("res = " + res);
-        System.out.println("res1 = " + res1);
-        System.out.println("res2 = " + res2);
+//        int a = 10;
+//        int b = 4;
+//
+//        int res = a / b; // 2
+//        double res1 = a / b; // 2.0
+//        double res2 = a /(double) b; //2.5
+//
+//        System.out.println("res = " + res);
+//        System.out.println("res1 = " + res1);
+//        System.out.println("res2 = " + res2);
 
 
 
@@ -59,5 +64,9 @@ public class KodnestPrograms {
 //        System.out.println("num1 | num2 = " +( num1 | num2));
 //        System.out.println("num1 ^ num2 = " +( num1 ^ num2));
 
+            }
+            public static int areaOfSquare(int l, int b){
+        int area = l * b;
+        return area;
             }
 }
