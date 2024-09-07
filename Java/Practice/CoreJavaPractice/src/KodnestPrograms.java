@@ -11,6 +11,9 @@ public class KodnestPrograms {
 
 
         //METHODS
+
+
+
         System.out.println("Area of the square is " + areaOfSquare(20,5));
         System.out.println("Area of the square is " + perimeterOfRectanle(20,5));
 
