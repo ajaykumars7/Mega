@@ -24,14 +24,14 @@ class InputFromUser{
 
 
 //        AVERAGE OF TWO NUMBERS
-        System.out.println("Enter the First Number");
-        int n1 = input.nextInt();
-        System.out.println("Enter the Second Number");
-        int n2 = input.nextInt();
-        System.out.println("Enter the Third Number");
-        int n3 = input.nextInt();
-
-        double avg = (double) (n1 + n2 + n3)/3;
-        System.out.println(avg);
+//        System.out.println("Enter the First Number");
+//        int n1 = input.nextInt();
+//        System.out.println("Enter the Second Number");
+//        int n2 = input.nextInt();
+//        System.out.println("Enter the Third Number");
+//        int n3 = input.nextInt();
+//
+//        double avg =(double) (n1 + n2 + n3)/3;
+//        System.out.println(avg);
 
     }}

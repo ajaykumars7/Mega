@@ -1,9 +1,12 @@
 public class Arrays {
-    int[] num = {23,23,23,334,34};
-    int i = 0;
-//    while(num.length > 0){
-//        int sum = 0;
-//        sum += i;
-//        i++;
+    int x = 21;
+
+    public static void simple(){
+        System.out.println("hello");
+    }
+    public static void main(String[] args) {
+        simple();
+        Arrays Myobj = new Arrays();
+        System.out.println(Myobj.x);
     }
 }
